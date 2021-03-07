@@ -34,12 +34,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#6BBB13',
     alignItems: 'center',
     justifyContent: 'center',
+    width: '100%'  
   },
   TextInput: {
     borderWidth:1, 
     margin: 10, 
     borderColor: '#fff', 
     padding: 10, 
-    color: '#fff'
+    color: '#fff',
+    with: "100%"
   }
 });
