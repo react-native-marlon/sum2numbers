@@ -15,6 +15,14 @@ export default class App extends Component {
     var R = N1 * N2;
     alert(R)
   }
+
+  getSize() {
+    return {
+        width: Dimensions.get('window').width, 
+        height: Dimensions.get('window').height
+    }
+}
+
   render(){
     return (
       <View style={styles.container}>
@@ -33,8 +41,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#6BBB13',
     alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%'  
+    justifyContent: 'center'
   },
   TextInput: {
     borderWidth:1, 
